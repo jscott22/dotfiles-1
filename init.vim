@@ -107,6 +107,9 @@ set rtp+=/usr/local/opt/fzf
 " Enable fzf for vim. (If installed using git)
 " set rtp+=~/.fzf
 
+" Enable fzf for vim. (If installed on Debian via `apt install fzf`)
+" source /usr/share/doc/fzf/examples/fzf.vim
+
 " (By default, <leader> is mapped to \)
 " Run fzf's `:Files` Ex-command using `\f`
 nnoremap <leader>f :Files<CR>
