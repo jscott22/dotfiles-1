@@ -15,8 +15,8 @@ set inccommand=nosplit
 set foldmethod=indent
 
 " Statusline colors
-hi StatusLine guibg=#154c69 guifg=#699efa
-hi StatusLineNC guibg=#154c69 guifg=gray
+hi StatusLine ctermbg=black  ctermfg=cyan
+hi StatusLineNC ctermbg=black ctermfg=8
 
 " Disable autofolding upon opening a file.
 " By default, foldlevel=0, which means that vim will
@@ -28,9 +28,6 @@ hi StatusLineNC guibg=#154c69 guifg=gray
 " disables all autofolding upon opening a file. If you have 100 levels
 " of indentation, that's a bigger problem in itself.
 set foldlevel=99
-
-" True Color support
-set termguicolors
 
 " Case-insensitive filenames
 set wildignorecase
